@@ -58,10 +58,9 @@ The website also makes use of **Google Fonts** and **Font Awesome** icons.
 
 The images of the exhibition used in the project were generated using the **Midjourney** Bot on Discord.
 
-## Screenshots
+## Screenshot
 
 ![](./screenshot-home.png)
-![](./screenshot-home-mobile.png)
 
 ## Links
 
