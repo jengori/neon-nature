@@ -1,0 +1,383 @@
+p {
+  margin-bottom: 0;
+}
+
+body {
+  background-color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+/* navigation bar */
+
+.navigation-bar {
+    padding-left: 20px;
+    border-bottom: 1px solid #ddffbc;
+      }
+
+.navbar {
+    min-height: 70px;
+    padding-bottom: 15px;
+}
+
+.nav-button {
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    background: transparent;
+    transition: all 0.3s ease;
+    position: relative;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    min-width: 150px;
+    padding: 0 10px 0;
+    z-index: 1;
+  }
+  
+  .nav-button:hover {
+    color: black;
+  }
+  
+  .nav-button:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  
+  .nav-button:after {
+    border-radius:10px;
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: all 0.3s ease;
+  }
+  
+  .home-button {
+      color: #ddffbc;
+      border: 1px solid #ddffbc;
+      box-shadow: 0 0 5px #ddffbc, 0 0 5px #ddffbc inset;
+    }
+    
+  .home-button:after {
+      background: #ddffbc;
+      box-shadow: 0 0 20px  #ddffbc;
+    }
+    
+    .about-button {
+      color: #e4e3c7;
+      border: 1px solid #e4e3c7;
+      box-shadow: 0 0 5px #e4e3c7, 0 0 5px #e4e3c7 inset;
+    }
+    
+    .about-button:after {
+      background: #e4e3c7;
+      box-shadow: 0 0 20px  #e4e3c7;
+    }
+   
+    .visit-button {
+      color: #ecc5d2;
+      border: 1px solid #ecc5d2;
+      box-shadow: 0 0 5px #ecc5d2, 0 0 5px #ecc5d2 inset;
+    }
+    
+    .visit-button:after {
+      background: #ecc5d2;
+      box-shadow: 0 0 20px  #ecc5d2;
+    }
+    
+    .book-button {
+      color: #f3aadd;
+      border: 1px solid #f3aadd;
+      box-shadow: 0 0 5px #f3aadd, 0 0 5px #f3aadd inset;
+    }
+    
+    .book-button:after {
+      background: #f3aadd;
+      box-shadow: 0 0 20px  #f3aadd;
+    }
+    
+    .shop-button {
+      color: #f993e6;
+      border: 1px solid #f993e6;
+      box-shadow: 0 0 5px #f993e6, 0 0 5px #f993e6 inset;
+    }
+    
+    .shop-button:after {
+      background: #f993e6;
+      box-shadow: 0 0 20px  #f993e6;
+    }
+   
+    .contact-button {
+      color: #ff78f0;
+      border: 1px solid #ff78f0;
+      box-shadow: 0 0 5px #ff78f0, 0 0 5px #FF78F0 inset;
+    }
+    
+    .contact-button:after {
+      background: #FF78F0;
+      box-shadow: 0 0 20px  #FF78F0;
+    }
+
+    /* title section */
+
+    .title-section {
+      background-color: black;
+      background-image: url("../images/title-background.jpeg");
+      padding: 50px;
+    }
+
+    h1 {
+      font-family: "Autour One", sans-serif;
+      font-size: 4em;
+      color: white;
+      text-shadow: 
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+  } 
+  
+  h1:hover{
+      animation: flicker 1.5s
+      infinite alternate;
+  
+  }
+  
+  @keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    } 
+    20%, 24%, 55% {
+        text-shadow: none;
+    }
+  }
+  
+  h2 {
+    color: #ddffbc;   
+    max-width: 500px;  
+      }
+
+  .title-col-2 {
+    margin: auto;
+    height: auto;
+    width: auto;
+  }
+
+  .book-tickets {
+    background-color: black;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid  #ddffbc;
+    box-shadow: 0 0 5px  #ddffbc, 0 0 5px  #ddffbc inset;
+    padding: 10px;
+  }
+
+  .book-tickets:hover {
+    font-size: 36px;
+  }
+
+/* location and dates banner */
+
+.location-and-dates {
+  background-color: #ddffbc;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 50px 0;
+}
+
+/* carousel - images and press reviews */
+
+.carousel-section {
+  color: #fff;
+  padding: 20px 50px 20px;
+}
+
+.carousel-img {
+  border-radius: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.review-text {
+  background-color: black;
+  color: #fff;
+  font-size: 1.5em;
+  opacity: 75%;
+  padding: 5px;
+  position: absolute;
+  width: 80%;
+}
+
+.review-text-1 {
+  left: 10%;
+  top: 5%;
+}
+
+.review-text-2 {
+  left: 10%;
+  bottom: 10%;
+}
+
+.review-text-3 {
+  left: 10%;
+  top: 5%
+}
+
+/* introduction section */
+
+.introduction-section {
+  background-color: #ddffbc;
+  color: #000;
+  padding: 20px 100px 20px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+/* exhibition features section */
+
+.features-section {
+  padding: 50px 50px 50px;
+  text-align: center;
+}
+
+.features-img-frame {
+  background-size: 100%;
+  border: 2px solid #ff78f0;
+  margin: auto auto 30px;
+  width: 290px;
+  height: 290px;
+  transition: 1s ease-in-out;
+  position: relative;
+}
+
+.features-img-frame-1 {
+  background-image: url("../images/bird.png");
+}
+
+.features-img-frame-2 {
+  background-image: url("../images/cave.png");
+}
+
+.features-img-frame-3 {
+  background-image: url("../images/lab.png");
+}
+
+.features-img-frame:hover {
+  background-size: 110%;
+}
+
+h3 {
+  color: #fff;
+  opacity: 75%;
+  padding-bottom: 5px;
+}
+
+.feature-title-caves {
+  width: 80%;
+  margin: auto
+}
+
+.feature-desc {
+  color: #fff;
+  opacity: 60%;
+  width: 80%;
+  margin: auto;
+}
+
+.features-row-1 {
+  padding-bottom: 50px;
+}
+
+.read-more {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid  #ddffbc;
+  box-shadow: 0 0 5px  #ddffbc, 0 0 5px  #ddffbc inset;
+  padding: 10px;
+}
+
+.read-more:hover {
+  background-color: #ddffbc;
+  color: #000;
+}
+
+/* organisations section */
+
+.organisations-section {
+  background-color: white;
+  padding: 0 100px 0;
+}
+
+.org-logo {
+  padding: 20px 0 20px;
+}
+
+/* footer */
+
+footer {
+  background-image: url("../images/title-background.jpeg");
+  color: #fff;
+}
+
+.footer-pt-1 {
+  padding: 50px 100px 40px;
+}
+
+.footer-nav {
+  padding-bottom: 20px;
+}
+
+.footer-link {
+  color: #fff;
+  opacity: 70%;
+  text-decoration: none;
+}
+
+#newsletter1 {
+  max-width: 400px;
+}
+
+.footer-pt-2 {
+  color: #ff78f0;
+  border-top: 1px #fff solid;
+  font-size: 14px;
+  padding: 10px 100px 20px;
+}
+
+.sm-icons {
+  padding: 10px 0 10px;
+}
+
+.sm-icon {
+  cursor: pointer;
+  font-size: 36px;
+  padding: 0 10px 0;
+}
+
+.sm-icon:hover {
+  opacity: 100%;
+}

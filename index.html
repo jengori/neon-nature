@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Autour+One&family=Montserrat&family=Unbounded&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+    <!-- javascript -->
+    <script> 
+
+      function newsletterSubmit() {
+
+      var status = true;
+      document.getElementById('thanks-for-signing-up').innerHTML=("Thanks for signing up for the Neon Nature newsletter!"); 
+      status=false;
+      return status;
+
+      }
+    
+    </script>
+    
+    <title>Neon Nature - Home</title>
+
+</head>
+
+
+<body>
+
+<!-- navigation bar -->
+
+  <section class="navigation-bar">
+
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <button class="nav-link nav-button home-button" aria-current="page" onclick="window.location.href='index.html'">home</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link nav-button about-button" onclick="window.location.href='exhibition.html'">the exhibition</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link nav-button visit-button" onclick="window.location.href='visit.html'">visitor information</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link nav-button book-button" onclick="window.location.href='book.html'">book tickets</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link nav-button shop-button" onclick="window.location.href='shop.html'">art shop</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link nav-button contact-button" onclick="window.location.href='contact.html'">contact</button>
+              </li>   
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
+  </section>
+
+
+<!-- title section -->
+
+
+  <section class="title-section">
+
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-lg-6 col-md-12 title-col-1">
+
+          <h1>NEON NATURE</h1>
+          <h2>A luminescent journey <span class="nowrap">through natural history</span></h2>
+        
+        </div>
+
+        <div class="col-lg-6 col-md-12 title-col-2">
+        
+          <p><a class="book-tickets" href="book.html">book tickets</a></p>
+        
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- location and dates banner -->
+
+
+  <section class="location-and-dates-section">
+
+    <div class="container-fluid location-and-dates-container">
+          <p class="location-and-dates">BUTCHER WORKS GALLERY, 72 ARUNDEL ST, SHEFFIELD // <span class="nowrap">4TH MARCH - 30TH JULY 2023</span></p>
+    </div>
+
+  </section>
+
+
+<!-- carousel - images and press reviews -->
+
+
+  <section class="carousel-section">
+
+    <div id="carousel" class="carousel slide">
+     
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner">
+        
+        <div class="carousel-item active">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-6">
+                <p class="review-text review-text-1">"I left the exhibition feeling inspired and in awe of the beauty of our planet" - <span class="nowrap"><i>The Sheffield Telegraph</i> ⭑⭑⭑⭑⭑</span></p>
+                <img src="images/flower.png" class="carousel-img" alt="People viewing a giant fluorescent flower at the Neon Nature exhibition">
+              </div>
+              <div class="col-6">
+                <img src="images/cave-animals.png" class="carousel-img" alt="Fluorescent animal sculptures at the Neon Nature exhibition">
+              </div>
+            <div class="row mobile-review-text-row">
+              <div class="col-12">
+                <p class="mobile-review-text">"I left the exhibition feeling inspired and in awe of the beauty of our planet" -  <span class="nowrap"><i>The Sheffield Telegraph</i> ⭑⭑⭑⭑⭑</span></p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-6">
+                <p class="review-text review-text-2">"A must-see for anyone who appreciates the beauty of art and nature!" - <span class="nowrap"><i>The Guardian</i> ⭑⭑⭑⭑⭑</span></p>
+                <img src="images/insect.png" class="carousel-img" alt="Neon insect exhibit at the Neon Nature exhibition">
+              </div>
+              <div class="col-6">
+                <img src="images/cave-flowers.png" class="carousel-img" alt="A display of fluorescent flower sculptures at the Neon Nature exhibition">
+              </div>
+              <div class="row mobile-review-text-row">
+                <div class="col-12">
+                  <p class="mobile-review-text">"A must-see for anyone who appreciates the beauty of art and nature!" - <span class="nowrap"><i>The Guardian</i> ⭑⭑⭑⭑⭑</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-6">
+                <p class="review-text review-text-3">"Every exhibit is thoughtfully designed and executed to perfection" - <span class="nowrap"><i>Art Review</i> ⭑⭑⭑⭑⭑</span></p>
+                <img src="images/earth.png" class="carousel-img" alt="People looking at a giant fluorescent model of the Earth at the Neon Nature exhibition">
+              </div>
+              <div class="col-6">
+                <img src="images/cave-birds.png" class="carousel-img" alt="A display of fluorescent bird sculptures at the Neon Nature exhibition">
+              </div>
+            </div>
+            <div class="row mobile-review-text-row">
+              <div class="col-12">
+                <p class="mobile-review-text">"Every exhibit is thoughtfully designed and executed to perfection" - <span class="nowrap"><i>Art Review</i> ⭑⭑⭑⭑⭑</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+
+  </section>
+
+
+<!-- introduction section -->
+
+
+  <section class="introduction-section">
+
+    <p class="intro-p1">
+      Welcome to Neon Nature, an immersive art experience based at Sheffield's Butcher Works Gallery.
+    </p>
+    <p><br>
+      Our exhibition takes visitors on a journey through Earth's natural history in a way that's both educational and interactive. 
+      From glowing flowers to luminescent insects, Neon Nature features a range of stunning neon and fluorescent displays that 
+      offer a fresh perspective on the natural world. Whether you're a lover of art or nature, Neon Nature is an experience 
+      you won't want to miss.<br>
+    </p>
+    <p><br>
+      So come and explore, learn, and be inspired by the unique beauty of our planet.
+    </p>
+  
+  </section>
+
+
+<!-- exhibition features section -->
+    
+
+  <section class="features-section">
+      <div class="container-fluid">
+        <div class="row features-row-1">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="features-img-frame features-img-frame-1"></div>
+            <h3>Winged Wonders</h3>
+            <p class="feature-desc">An area of the exhibition featuring a variety of bird species in neon and fluorescent displays, showcasing the incredible diversity of bird life on our planet.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="features-img-frame features-img-frame-2"></div>
+            <h3 class="feature-title-caves">The Caves of Illumination</h3>
+            <p class="feature-desc">A section of the exhibition recreating the mysterious and fascinating world of underground caves.</p> 
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="features-img-frame features-img-frame-3"></div>
+            <h3>The Neon Nature Lab</h3>
+            <p class="feature-desc lab-desc">An interactive area where visitors can learn about the science behind the exhibition and experiment with neon and fluorescent materials.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 text-center">
+            <p><a class="read-more" href="exhibition.html">read more about the exhibition <i class="fa-solid fa-angles-right"></i></a></p>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+</section>
+
+<!-- organisations section -->
+
+  <section class="organisations-section">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4 text-center">
+          <img src="images/arts-council-logo-nobg.png" class="org-logo img-fluid max-width:100% height:auto">
+        </div>
+        <div class="col-4 text-center">
+          <img src="images/british-ecological-society-logo-nobg.png" class="org-logo img-fluid max-width:60% height:auto">
+        </div>
+        <div class="col-4 text-center">
+          <img src="images/creative-lives-logo-nobg.png" class="org-logo img-fluid max-width:100% height:auto">
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+<!-- footer  -->
+
+<footer>
+
+  <section class="footer-pt-1">
+    <div class="row">
+      <div class="col-lg-4 col-md-12">
+        <ul class="nav flex-column footer-nav">
+          <li><a href="index.html" class="footer-link footer-link-1">Home</a></li>
+          <li><a href="exhibition.html" class="footer-link footer-link-2">The Exhibition</a></li>
+          <li><a href="visit.html" class="footer-link footer-link-3">Visitor Information</a></li>
+          <li><a href="book.html" class="footer-link footer-link-4">Book Tickets</a></li>
+          <li><a href="shop.html" class="footer-link footer-link-5">Art Shop</a></li>
+          <li><a href="contact.html" class="footer-link footer-link-6">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-8 col-md-12">
+        <form onsubmit="return newsletterSubmit()">
+          <h5>Subscribe to our newsletter</h5>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="email" class="form-control" placeholder="Email address" required>
+            <input type="submit" class="btn btn-light subscribe-button" type="button" value="Subscribe">
+          </div>
+          <p id="thanks-for-signing-up"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-pt-2">
+    <div class="sm-icons text-center">
+      <i class="fa-brands fa-facebook sm-icon"></i>
+      <i class="fa-brands fa-twitter sm-icon"></i>
+      <i class="fa-brands fa-instagram sm-icon"></i>
+    </div>
+
+    <div class="text-center">
+      <p><i class="fa-regular fa-copyright"></i> Neon Nature 2023</p>
+    </div>
+
+  </section>
+
+</footer>
+
+  <!-- bootstrap javascript cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+-- google fonts
+
+title: autour one
+everything else: montserrat
+
+font size: 16px for paragraphs
+
+(the above properties are already set for <body> in the stylesheet)
+
+-- main colours
+
+black: #000
+white: #fff
+light green: #ddffbc
+pink: #ff78f0
+
+
+-- neon glow effect borders
+
+this can be achieved like this (this one is a green border
+for the home button in the nav bar)
+
+.home-button {
+      color: #ddffbc;
+      border: 1px solid #ddffbc;
+      box-shadow: 0 0 5px #ddffbc, 0 0 5px #ddffbc inset;
+    }
+
+
+

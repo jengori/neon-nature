@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Autour+One&family=Montserrat&family=Unbounded&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+    <!-- javascript -->
+    <script> 
+
+      function newsletterSubmit() {
+
+      var status = true;
+      document.getElementById('thanks-for-signing-up').innerHTML=("Thanks for signing up for the Neon Nature newsletter!"); 
+      status=false;
+      return status;
+
+      }
+    
+    </script>
+    
+    
+    <title>Neon Nature - The Exhibition</title>
+
+</head>
+
+<style type="text/css">
+  p {
+    color: #f8f9fa;
+    margin-bottom: 15px;
+  }
+
+</style>
+
+<body>
+
+<!-- navigation bar -->
+
+  <section class="navigation-bar">
+
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <button class="nav-link nav-button home-button" aria-current="page" onclick="window.location.href='index.html'">home</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link nav-button about-button" onclick="window.location.href='exhibition.html'">the exhibition</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link nav-button visit-button" onclick="window.location.href='visit.html'">visitor information</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link nav-button book-button" onclick="window.location.href='book.html'">book tickets</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link nav-button shop-button" onclick="window.location.href='shop.html'">art shop</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link nav-button contact-button" onclick="window.location.href='contact.html'">contact</button>
+              </li>   
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
+  </section>
+
+
+<!-- title section -->
+
+
+  <section class="title-section">
+
+    <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-lg-6 col-md-12 title-col-1">
+
+          <h1>NEON NATURE</h1>
+          <h2>About the exhibition</h2>
+        
+        </div>
+
+        <div class="col-lg-6 col-md-12 title-col-2">
+        
+          <p><a class="book-tickets" href="book.html">book tickets</a></p>
+        
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+<!-- More About the Exhibition -->
+
+<div class="container">
+  <div class="row">
+        <div class="col"> 
+          <h2 class="artist-heading">About The Artist - <span class="nowrap">Alex Daisy</span></h2>
+          <section class="the-artist">
+           
+            <p>
+              Welcome to Neon Nature, an immersive art installation at Butcher Works Gallery. Renowned artist Alex Daisy investigates the fraught relationship between humans and nature in our era of radical technological and scientific advancement. Alex works across multiple mediums, from digital simulations to living gardens. Her work looks at subjects as diverse as artificial intelligence, conservation, evolution, synthetic biology and the history of science as she questions our impulse to ‘better’ the world as we paradoxically destroy our environment. 
+            </p>
+            
+            <p>
+            Alex exhibits her work internationally, including at the Museum of Modern Art in New York, the Museum of Contemporary Art in Tokyo, the National Museum of China in Beijing, the Centre Pompidou in Paris and the Royal Academy in London. For a limited time only, Alex visits the UK to showcase her latest work, a visual treat exploring the relationship between, humans, our ecological environment and what that means for the future of our planet. 
+            </p>
+​
+          
+          </section>
+​
+        </div>
+        
+        
+​
+    <style>
+      .the-artist {
+        opacity: 80%;
+      }
+
+      .artist-heading {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 24px;
+      }
+      /* set up the grid container */
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns */
+        grid-gap: 10px; /* gap between the images */
+      }
+
+      /* style the images */
+      .image-grid img {
+        width: 100%; /* make the images fill their container */
+        height: auto; /* preserve the aspect ratio */
+      
+      }
+
+      /* margins */
+      .image-grid {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      @media (max-width: 400px) {
+     .image-grid {
+      grid-template-columns: repeat(2, 1fr);
+     }
+  }
+    </style>
+ 
+    <div class="image-grid">
+      <img src="images/lab.png" alt="Image of man in lab">
+      <img src="images/insect.png" alt="Image of blue insect">
+      <img src="images/bird.png" alt="Image of blue and pink bird">
+      <img src="images/cave-animals.png" alt="Image of animals in cac=ve">
+      <img src="images/flower.png" alt="Image of a pink flower">
+      <img src="images/earth.png" alt="Image of people in front of a globe">
+    </div>
+                  
+  </div>
+</div>
+
+  <!-- footer  -->
+
+<footer>
+
+  <section class="footer-pt-1">
+    <div class="row">
+      <div class="col-lg-4 col-md-12">
+        <ul class="nav flex-column footer-nav">
+          <li><a href="index.html" class="footer-link footer-link-1">Home</a></li>
+          <li><a href="exhibition.html" class="footer-link footer-link-2">The Exhibition</a></li>
+          <li><a href="visit.html" class="footer-link footer-link-3">Visitor Information</a></li>
+          <li><a href="book.html" class="footer-link footer-link-4">Book Tickets</a></li>
+          <li><a href="shop.html" class="footer-link footer-link-5">Art Shop</a></li>
+          <li><a href="contact.html" class="footer-link footer-link-6">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-8 col-md-12">
+        <form onsubmit="return newsletterSubmit()">
+          <h5>Subscribe to our newsletter</h5>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="email" class="form-control" placeholder="Email address" required>
+            <input type="submit" class="btn btn-light subscribe-button" type="button" value="Subscribe">
+          </div>
+          <p id="thanks-for-signing-up"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-pt-2">
+    <div class="sm-icons text-center">
+      <i class="fa-brands fa-facebook sm-icon"></i>
+      <i class="fa-brands fa-twitter sm-icon"></i>
+      <i class="fa-brands fa-instagram sm-icon"></i>
+    </div>
+
+    <div class="text-center">
+      <p><i class="fa-regular fa-copyright"></i> Neon Nature 2023</p>
+    </div>
+
+  </section>
+
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
