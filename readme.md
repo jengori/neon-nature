@@ -28,7 +28,7 @@ Jen Gori<br/>
 Victoria McCusker<br/>
 Daniella Omokore
 
-## Our project: Neon Nature
+## Our project: Neon Nature website
 
 Our project is a website for a fictional art exhibition called "Neon Nature". 
 
