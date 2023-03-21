@@ -65,4 +65,4 @@ The images of the exhibition used in the project were generated using the **Midj
 ## Links
 
 - Repository URL: https://github.com/jengori/neon-nature
-- Live Site URL:
+- Live Site URL: https://jengori.github.io/neon-nature
