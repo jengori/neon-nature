@@ -24,7 +24,7 @@ Nice to haves:
 ## Contributors
 
 Husna C<br/>
-Jen Gori<br/>
+[Jen Gori](https://github.com/jengori)<br/>
 Victoria McCusker<br/>
 Daniella Omokore
 
