@@ -1,5 +1,4 @@
-# Neon Nature 
-## https://jengori.github.io/neon-nature
+# Neon Nature<br/>https://jengori.github.io/neon-nature
 
 This a a group project completed as part of the **Web Development Kickstarter** course run by [Code First Girls](https://codefirstgirls.com).
 
