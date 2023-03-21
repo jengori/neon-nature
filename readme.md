@@ -25,7 +25,7 @@ Nice to haves:
 
 Husna C<br/>
 [Jen Gori](https://github.com/jengori)<br/>
-Victoria McCusker<br/>
+[Vic McCusker](https://github.com/vicmccusker)<br/>
 Daniella Omokore
 
 ## Our project: Neon Nature website
