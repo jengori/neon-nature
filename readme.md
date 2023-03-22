@@ -23,7 +23,7 @@ Nice to haves:
 
 ## Contributors
 
-Husna C<br/>
+[Husna Chioccola] {https://github.com/hchioccola}<br/>
 [Jen Gori](https://github.com/jengori)<br/>
 [Vic McCusker](https://github.com/vicmccusker)<br/>
 Daniella Omokore
