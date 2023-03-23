@@ -26,7 +26,7 @@ Nice to haves:
 [Husna Chioccola](https://github.com/hchioccola)<br/>
 [Jen Gori](https://github.com/jengori)<br/>
 [Vic McCusker](https://github.com/vicmccusker)<br/>
-[Daniella Omokore]https://github.com/daniellaomokore
+[Daniella Omokore](https://github.com/daniellaomokore)
 
 ## Our project: Neon Nature website
 
